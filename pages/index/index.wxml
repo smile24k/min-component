@@ -1,0 +1,9 @@
+<!--
+ * @Author: WTL
+ * @LastEditors: WTL
+ * @Date: 2019-09-17 13:35:54
+ * @LastEditTime: 2019-09-17 15:15:27
+ * @Description: 
+ -->
+<bk-navbar text="自定义导航测试" background="#ccc" back="{{true}}" home="{{true}}" />
+<bk-button>wtl</bk-button>

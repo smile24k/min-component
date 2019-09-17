@@ -1,0 +1,22 @@
+<!--
+ * @Author: WTL
+ * @LastEditors: WTL
+ * @Date: 2019-09-17 14:28:57
+ * @LastEditTime: 2019-09-17 15:14:50
+ * @Description: 
+ -->
+<view class="navbar" style="{{'height: ' + navigationBarHeight}};{{'background:'+background}}">
+    <view style="{{'height: ' + statusBarHeight}}"></view>
+    <view class='title-container'>
+        <view class='capsule' wx:if="{{ back || home }}">
+            <view bindtap='back' wx:if="{{back}}">
+                <image src='/images/back@3x.png'></image>
+            </view>
+            <view bindtap='backHome' wx:if="{{home}}">
+                <image src='/images/home_icon@3x.png'></image>
+            </view>
+        </view>
+        <view class='title'>{{text}}</view>
+    </view>
+</view>
+<view style="{{'height: ' + navigationBarHeight}};background: white;"></view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Button 按钮",
+  "usingComponents": {
+    "bk-button": "/dist/bk-button/index",
+    "bk-navbar": "/dist/bk-navbar/index"
+  }
+}
